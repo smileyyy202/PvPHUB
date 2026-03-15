@@ -1,30 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="lv">
+
 <head>
-<title>FiveM Server Store</title>
+
+<meta charset="UTF-8">
+<title>PvPHUB.lv Veikals</title>
+
 <link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
 <header>
-<h1>My FiveM Server Store</h1>
+
+<div class="logo-box">
+<img src="pvp.png" class="logo">
+<h1>PvPHUB.lv</h1>
+</div>
 
 <nav>
-<a href="index.html">Home</a>
-<a href="store.html">Store</a>
-<a href="rules.html">Rules</a>
+<a href="#sakums">Sākums</a>
+<a href="#veikals">Veikals</a>
+<a href="#noteikumi">Noteikumi</a>
+<a href="#kontakti">Kontakti</a>
 </nav>
+
 </header>
 
-<section class="hero">
-<h2>Welcome to the Official Server Store</h2>
-<p>Purchase unban requests and other services for our FiveM server.</p>
+
+<section id="sakums" class="hero">
+
+<h2>Laipni lūdzam PvPHUB.lv</h2>
+<p>Latvijas FiveM PvP serveris</p>
+
+
+
+</div>
+
+<button onclick="scrollToStore()" class="main-btn">
+Apskatīt veikalu
+</button>
+
 </section>
 
+
+<section id="veikals">
+
+<h2 class="title">Veikals</h2>
+
+<div class="shop">
+
+<div class="card">
+
+<h3>Perma unbans</h3>
+
+<p>Uztaisi ticketu kad noperc, discorda serveri!</p>
+
+<span class="price">5€</span>
+
+<a href="https://www.paypal.com/paypalme/TAVS-PAYPAL/10" target="_blank">
+
+<button class="buy-btn">Pirkt ar PayPal</button>
+
+</a>
+
+</div>
+
+
+<div class="card">
+
+<h3>bans lidz 7 dienam</h3>
+
+<p>Uztaisi ticketu kad noperc, discorda serveri!</p>
+
+<span class="price">3€</span>
+
+<a href="https://www.paypal.com/paypalme/TAVS-PAYPAL/20" target="_blank">
+
+<button class="buy-btn">Pirkt ar PayPal</button>
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="noteikumi">
+
+<h2 class="title">Unban Noteikumi</h2>
+
+<div class="rules">
+
+<ul>
+<li>Nauda netiks atgriezta!</li>
+
+</ul>
+
+</div>
+
+</section>
+
+
+<section id="kontakti">
+
+<h2 class="title">Kontakti</h2>
+
+<p>Pievienojies mūsu Discord serverim.</p>
+
+<a href="https://discord.gg/XyE75UfC" target="_blank">
+
+<button class="discord">
+Pievienoties Discord
+</button>
+
+</a>
+
+</section>
+
+
 <footer>
-<p>© 2026 My FiveM Server</p>
+
+<p>© 2026 PvPHUB.lv</p>
+
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
